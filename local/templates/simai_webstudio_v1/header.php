@@ -119,7 +119,7 @@ autoclose: true
 		"MENU_CACHE_USE_GROUPS" => "Y",
 		"MENU_CACHE_GET_VARS" => array(
 		),
-		"MAX_LEVEL" => "",
+		"MAX_LEVEL" => "2",
 		"CHILD_MENU_TYPE" => "section",
 		"USE_EXT" => "Y",
 		"DELAY" => "N",
