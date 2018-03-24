@@ -1,0 +1,56 @@
+/******************************************************************************/
+/*                                    LEFT MENU                               */
+/******************************************************************************/
+
+div.left-menu
+{
+    margin-bottom: 20px;
+	padding: 5px;
+	width:200px;
+}
+div.left-menu a.root_section
+{
+	color: #404040;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+div.left-menu a.root_section:hover
+{
+	color: #f04040;
+}
+div.left-menu a.root_section_selected
+{
+	color: #f04040;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+div.left-menu a.section
+{
+	color: #404040;
+	font-size: 13px;
+	text-decoration: none;
+}
+div.left-menu a.section:hover
+{
+	color: #f04040;
+}
+div.left-menu a.section_selected
+{
+	color: #f04040;
+	font-size: 13px;
+	text-decoration: none;
+}
+div.left-menu a.element
+{
+	font-size: 11px;
+	color: #404040;
+	text-decoration: none;
+}
+div.left-menu a.element_selected
+{
+	font-size: 11px;
+	color: #f04040;
+	text-decoration: none;
+}

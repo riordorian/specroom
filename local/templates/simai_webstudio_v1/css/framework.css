@@ -1,0 +1,12 @@
+/* show no photo items */
+.no-photo {background: url(img/no-photo.png) no-repeat 50% 50%;background-size: 100% 150%;}
+
+/* class for margin bottom */
+.margin-bottom {margin-bottom: 20px;}
+
+.carousel-control.left, .carousel-control.right {border-radius: 0; border: 0; color: white; opacity: 0.5; background: rgba(0,0,0, 0.7); top: 50%; margin-top: -20px; padding-left: 5px; padding-right: 5px; padding-bottom: 24px;}
+.carousel-control.left {left: 0;}
+.carousel-control.right {right: 0;}
+.carousel-control.left:hover, .carousel-control.right:hover {opacity: 1;}
+
+.lead {font-size: 1.4em; line-height: 1.5em; margin-bottom: 0.5em;}

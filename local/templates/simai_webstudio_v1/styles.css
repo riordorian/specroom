@@ -1,0 +1,68 @@
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Open Sans','Roboto', sans-serif;
+}
+/* Bootstrap fix */
+ .lead {color:#353535;}
+
+.c-name a.name {font-family:Georgia; font-style:italic; font-size:14px;color:#4D4D4D;
+    text-decoration:none; }
+.c-name a.name:hover {color:#CD0000; }
+.c-item {margin-bottom:10px; overflow:hidden; position:relative;}
+.imgs {width:251px; height:170px; float:left; text-align:center; background-image:url('img/c-l-bg.png');}
+.imgs a {display:block; width:251px; height:170px; background-position:center; background-repeat:no-repeat;}
+.c-name {position: absolute;
+    height: 30px;
+    background-image: url('img/tick.png');
+    width: 678px;
+    left: 251px;
+    top: 50%;
+    margin-top: -15px; padding-left:25px;background-repeat:no-repeat; line-height:30px;}
+	#am-container a {margin-left:30px !important; margin-bottom:30px !important; display:block; float:left;} 
+.c-link {float:right; padding-left:30px; padding-right:15px; background-image:url('img/linkbg.png');min-width: 50px; background-repeat:no-repeat;background-color:#fff;}
+.c-link:hover {background:#B60000;}
+.c-link:hover a {color:white;background-image:url('img/link-ah.png');}
+.c-link a {color:#A90000; font-family:Tahoma;font-size:12px; padding-right:20px; text-decoration:none; background-image:url('img/link-a.png'); background-repeat:no-repeat; background-position:center right;}
+.sfera {float:right; margin-top:20px; max-width: 690px;font-family:Tahoma; font-size:10px; color:#7F7F7F; }
+.sfera a {padding-left:10px; color:#333333;}
+.jobs {position: absolute;
+    left: 251px;
+    bottom: 30px;
+    padding-left: 20px;
+    max-width: 650px;
+    font-family:Tahoma; font-size:10px; color:#7F7F7F;}
+.jobs a {padding-left:10px; color:#333333;}
+.c-name .name:hover {color:#CD0000; text-shadow:0 0 1px #CD0000 }
+.txe {display:block;}
+.b-window .center ul {
+    margin: 0;
+    padding: 0;
+}
+.accordion-vacancy .accordion-group {margin: 20px 0;}
+.accordion-vacancy .accordion-group .block-heading {overflow: hidden;}
+.accordion-vacancy .accordion-heading {padding: 15px 15px 10px;}
+.accordion-vacancy .accordion-heading .accordion-toggle {text-align: center;margin: 0 0 -43px;z-index:10;position: relative;}
+.accordion-vacancy .accordion-heading img {float:left; margin-right:10px;}
+.accordion-vacancy .accordion-group:nth-child(2n) img {float:right;}
+.photogallery-list ul {list-style: none;margin: 0;}
+.photogallery-list ul li {overflow: hidden;margin: 0 0 20px;}
+.photogallery-list ul ul li {float: left;border: 4px solid #5c6470;margin: 15px 10px 0;}
+.photogallery-list ul li h6 small{font-size: 70%;}
+.photogallery-list ul ul li:hover {float: left;border: 4px solid #cd0000;}
+.photogallery-inner-list ul {list-style-type: none;margin: 0; padding: 0;}
+.photogallery-inner-list ul li {color: #cb1103;}
+.photogallery-inner-list ul li.pil-top {clear: both;margin: 0 0 2em;overflow: hidden;}
+.photogallery-inner-list ul ul li {float: left;border: 4px solid #5c6470;margin: 15px 10px 0;}
+.photogallery-inner-list ul li h6 {margin-bottom: 10px;}
+.photogallery-inner-list ul li h6 small{font-size: 70%;}
+.photogallery-inner-list ul ul li:hover {float: left;border: 4px solid #cd0000;}
+.bookmarkers {position: absolute;top: 0;left: 40px;}
+.bookmarkers .icon {display: inline-block;}
+.bookmarkers .icon a {display: block;height: 40px; width: 37px;background: url("img/social.png")  0 0 no-repeat;}
+.bookmarkers .icon a.twitter {background-position: -38px 0;}
+.bookmarkers .icon a.vk {background-position: -76px 0;}
+.bookmarkers .icon a.lj {background-position: -114px 0;}
+.bookmarkers .icon a.facebook:hover {background-position: 0 -40px;}
+.bookmarkers .icon a.twitter:hover {background-position: -38px -40px;}
+.bookmarkers .icon a.vk:hover {background-position: -76px -40px;}
+.bookmarkers .icon a.lj:hover {background-position: -114px -40px;}
