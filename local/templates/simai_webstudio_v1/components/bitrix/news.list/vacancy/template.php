@@ -40,6 +40,12 @@ if(count($arResult["ITEMS"])<1)return;
                             <?=htmlspecialchars_decode($arItem["PROPERTIES"]["RESPONSIBILITY"]["~VALUE"]["TEXT"])?>
                         </div>
                     <?endif;?>
+	            <?if ($arItem["PROPERTIES"]["CONDITIONS"]["~VALUE"]["TEXT"]) :?>
+                        <div class="special">
+                            <div class="sp-name"><?=GetMessage("CONDITIONS")?>:</div>
+                            <?=htmlspecialchars_decode($arItem["PROPERTIES"]["CONDITIONS"]["~VALUE"]["TEXT"])?>
+                        </div>
+                    <?endif;?>
 
             </div>
         </div>
