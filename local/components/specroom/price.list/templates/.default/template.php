@@ -38,7 +38,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die(); ?>
 								<td><?=Loc::getMessage('DURATION')?></td>
 								<td style="mobile-center">
 									<span class="desktop text hidden-xs"><?=Loc::getMessage('PRICE_DESKTOP')?></span>
-									<span class="hidden-md hidden-sm"><?=Loc::getMessage('PRICE_MOBILE')?></span>
+									<span class="hidden-lg hidden-md hidden-sm"><?=Loc::getMessage('PRICE_MOBILE')?></span>
 								</td>
 							</tr><?
 							foreach($arSection['ITEMS'] as $arItem){
