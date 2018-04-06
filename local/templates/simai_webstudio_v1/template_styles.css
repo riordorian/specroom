@@ -3154,18 +3154,15 @@ background-color:#FFFFFF}
 section.price-rebuild{
 	margin: 10px 0 70px;
 }
-section.price-rebuild .nav-item{
-	margin-right: 12px;
-	margin-bottom: 12px;
-}
+
 section.price-rebuild .nav-item .nav-link {
+	float: none;
 	padding: .4375rem .3125rem;
 	border: .125rem solid #666666;
 	border-radius: 0;
 	cursor: pointer;
 	text-decoration: none;
 	color: #666666;
-	height: 100%;
 	-webkit-transition: .5s;
 	transition: .5s;
 }
