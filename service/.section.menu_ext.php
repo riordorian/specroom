@@ -3,16 +3,26 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
 global $APPLICATION;
 
-
-$aMenuLinksExt=$APPLICATION->IncludeComponent("bitrix:menu.sections", "", array(
+$aMenuLinksExt = $APPLICATION->IncludeComponent("bitrix:menu.sections", "", array(
 	"IBLOCK_TYPE_ID" => "simai",
 	"IBLOCK_ID"=>"7",
 	"CACHE_TYPE" => "A",
 	"CACHE_TIME" => "36000000",
-	),
+),
 	false,
 	Array('HIDE_ICONS' => 'Y')
 );
+$aMenuLinksExt = array_merge($aMenuLinksExt, [
+	Array(
+		"Ремонт мониторов",
+		"/service/monitors/",
+		Array(),
+		Array(),
+		""
+	),
+]);
+
+
 $aMenuLinks = array_merge($aMenuLinks, $aMenuLinksExt);
 
 ?>
