@@ -12,16 +12,6 @@ $aMenuLinksExt = $APPLICATION->IncludeComponent("bitrix:menu.sections", "", arra
 	false,
 	Array('HIDE_ICONS' => 'Y')
 );
-$aMenuLinksExt = array_merge($aMenuLinksExt, [
-	Array(
-		"Ремонт мониторов",
-		"/service/monitors/",
-		Array(),
-		Array(),
-		""
-	),
-]);
-
 
 $aMenuLinks = array_merge($aMenuLinks, $aMenuLinksExt);
 
