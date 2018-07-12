@@ -67,8 +67,11 @@ autoclose: true
 
 </script><link id="t-colors" href="<?=SITE_TEMPLATE_PATH?>/skins/<?=$wizard_template_current["skin"]?>.css" rel="stylesheet" />
 <!-- boxed bg -->
-<link id="bodybg" href="<?=SITE_TEMPLATE_PATH?>/bodybg/<?=$wizard_template_current["bodybg"]?>.css" rel="stylesheet" type="text/css" />
-</head>
+<link id="bodybg" href="<?=SITE_TEMPLATE_PATH?>/bodybg/<?=$wizard_template_current["bodybg"]?>.css" rel="stylesheet" type="text/css" /><?
+
+$APPLICATION->IncludeFile('/include/ym.php', [], []);
+
+?></head>
 <body class="def<?if ($wizard_template_current["width"] == "boxed"):?> boxid<?endif;?>">
 <?$APPLICATION->ShowPanel()?>
 <div id="wrapper"<?if ($wizard_template_current["width"] == "boxed"):?> class="boxed"<?endif;?>>
