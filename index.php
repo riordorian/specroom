@@ -1,8 +1,10 @@
 <?
 require( $_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php" );
-$APPLICATION->SetPageProperty("title", "");
+$APPLICATION->SetPageProperty("title", "SpecROOM");
+$APPLICATION->SetPageProperty("description", "Сервисный центр SpecROOM");
+$APPLICATION->SetPageProperty("keywords", "ремонт, электроника, айфон, телефон, ноутбуки, компьютеры, iphone, ipad, apple, specroom, спецрум");
 $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
-$APPLICATION->SetTitle("SpecRoom");
+$APPLICATION->SetTitle("Сервисный центр SpecROOM");
 ?>
 
 <?
