@@ -56,6 +56,14 @@ $arUrlRewrite=array (
     'PATH' => '/about/news/',
     'SORT' => 100,
   ),
+  16 => 
+  array (
+    'CONDITION' => '#^={SITE_DIR."service/"}#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/service/index.php',
+    'SORT' => 100,
+  ),
   7 => 
   array (
     'CONDITION' => '#^/portfolio/client/#',

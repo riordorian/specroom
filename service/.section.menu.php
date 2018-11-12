@@ -1,6 +1,6 @@
 <?
 $aMenuLinks = Array(
-	Array(
+	/*Array(
 		"Ремонт мониторов", 
 		"/service/remont-monitorov/", 
 		Array(), 
@@ -27,6 +27,6 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
-	)
+	)*/
 );
 ?>
