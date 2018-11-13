@@ -14,9 +14,11 @@ IncludeTemplateLangFile(__FILE__);?>
 	$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/colorpicker/js/colorpicker.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/jquery.BlackAndWhite.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/jquery.flexslider.js');
+
     $APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH.'/colorpicker/css/colorpicker.css');
 	$APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH.'/css/framework.css');
     $APPLICATION->AddHeadString('<link rel="shortcut icon" type="image/x-icon" href="'.SITE_TEMPLATE_PATH.'/favicon.ico" />');
+
     $APPLICATION->AddHeadString('
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript" />

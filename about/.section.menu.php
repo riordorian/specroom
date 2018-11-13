@@ -14,13 +14,13 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),
-	/*Array(
+	Array(
 		"Видео",
 		"/about/video/",
 		Array(),
 		Array(),
 		""
-	),*/
+	),
 	Array(
 		"Вакансии", 
 		"/about/vacancy/", 
